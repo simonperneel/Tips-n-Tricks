@@ -11,5 +11,8 @@ Scaling image to the width of the paper:
  \end{figure}
  ```
 
+## PCB design
+
+## Python plots
 
  
