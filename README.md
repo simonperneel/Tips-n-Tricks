@@ -3,6 +3,7 @@
 ### useful packages
 -package `siunitx` for typesetting values with correct units
 in options: `[per-mode=symbol]`: / instead of ^-1
+
 -package `pifonts` for checkmarks 
 `\newcommand{\xmark}{\ding{55}}` : :heavy_check_mark:
 ### useful commands
