@@ -1,9 +1,9 @@
 # Tips-n-Tricks
 ## Latex 
 ### useful packages
-package `siunitx` for typesetting values with correct units
+-package `siunitx` for typesetting values with correct units
 in options: `[per-mode=symbol]`: / instead of ^-1
-package `pifonts` for checkmarks 
+-package `pifonts` for checkmarks 
 `\newcommand{\xmark}{\ding{55}}` : :heavy_check_mark:
 ### useful commands
 Scaling image to the width of the paper: 
@@ -16,5 +16,7 @@ Scaling image to the width of the paper:
 ## PCB design
 
 ## Python plots
+template for a latex-style plot of a csv dataset:
+
 
  
