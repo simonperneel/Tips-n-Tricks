@@ -18,6 +18,7 @@ Scaling image to the width of the paper:
 
 ## Python plots
 template for a latex-style plot of a csv dataset:
+[here](plot-latex-style.py)
 
 
  
