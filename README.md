@@ -1,4 +1,5 @@
 # Tips & Tricks
+Tips and tricks from four year electrical engineering that I wish I knew earlier. Feel free to share!
 ## Latex 
 ### useful packages
 - package **`siunitx`** for typesetting values with correct units \
@@ -23,7 +24,7 @@ Scaling image to the width of the paper:
 
 
 ## Python plots
-template for a latex-style plot of a csv dataset:
+template for a latex-style plot from a csv dataset:
 [here](https://github.com/simonperneel/Tips-n-Tricks/tree/master/Python%20plot)
 
 
