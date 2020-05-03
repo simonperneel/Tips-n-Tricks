@@ -1,5 +1,5 @@
 # Tips & Tricks
-Tips and tricks from four year electrical engineering that I wish I knew earlier. Feel free to share!
+Tips and tricks from my electrical engineering studies that I wish I knew earlier. Feel free to share!
 ## Latex 
 ### useful packages
 - package **`siunitx`** for typesetting values with correct units \
