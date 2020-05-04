@@ -21,7 +21,13 @@ Scaling image to the width of the paper:
  ```
 
 ## PCB design with Kicad
+- Add 3D model to footprint:
+1. Select component and press `E`
+2. Select 3D settings tab
+3. Add .step model of the component
 
+- Use mounting holes for mounting the PCB: \
+`MountingHole_4.3mm_M4_Pad_Via` footprint looks cool. Use this with rounded edges of the PCB: select `edge cut` layer, select `add graphic arc` in PCBNew, click the center of the MountingHole footprint, drag it out to the edge of the bord, click again and go anti-clockwise to the other edge of the board. 
 
 ## Python plots
 template for a latex-style plot from a csv dataset:
