@@ -3,7 +3,7 @@ Tips and tricks from my electrical engineering studies that I wish I knew earlie
 ## Latex 
 ### useful packages
 - package **`siunitx`** for typesetting values with correct units \
-in options: `[per-mode=symbol]`: / instead of ^-1 \
+in options: `[per-mode=symbol]`: / instead of $^{-1}$ \
 command: `\SI{12}{\meter}`
 - package **`mhchem`** for chemical formulas  \
 command: `\ce{CO2}`
@@ -29,8 +29,11 @@ Scaling image to the width of the paper:
 - Use mounting holes for mounting the PCB: \
 `MountingHole_4.3mm_M4_Pad_Via` footprint looks cool. Use this with rounded edges of the PCB: select `edge cut` layer, select `add graphic arc` in PCBNew, click the center of the MountingHole footprint, drag it out to the edge of the bord, click again and go anti-clockwise to the other edge of the board. 
 
+- When placing a sensor on PCB: check the breakout boards from Sparkfun for the correct wiring. You can also download the schematics from their website
+
+- When drawing a schematic: making comments with the `Place Text` button is a good idea!
 ## Python plots
-template for a latex-style plot from a csv dataset:
+template for a latex-style plot from a csv dataset
 [here](https://github.com/simonperneel/Tips-n-Tricks/tree/master/Python%20plot)
 
 
