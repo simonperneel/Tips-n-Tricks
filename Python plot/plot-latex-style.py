@@ -13,20 +13,20 @@ import math
 from matplotlib.ticker import ScalarFormatter
 
 # Configure figure size #
-width = 20                  #inches
-fontsize = 11               #pt
-axis_linewidth = 0.4        #pt
+width = 20                  # inches
+fontsize = 11               # pt
+axis_linewidth = 0.4        # pt
 
-golden_mean = (math.sqrt(5)-1.0)/2.0    #esthetic ratio
-height = width * golden_mean            #inches
+golden_mean = (math.sqrt(5)-1.0)/2.0  # aesthetic ratio
+height = width * golden_mean  # inches
 
-spines = 0 # set 1 for top and right axis
+spines = 0  # set 1 for top and right axis
 
 # Set rc parameters #
 mpl.use("pgf")
 mpl.rcParams.update({
-        'axes.spines.right': spines, #no right axis
-        'axes.spines.top': spines, #  no top axis
+        'axes.spines.right': spines, # no right axis
+        'axes.spines.top': spines, # no top axis
         'axes.axisbelow': True,
         'backend': 'ps',
         'axes.labelsize': fontsize,
@@ -63,8 +63,8 @@ plt.autoscale(enable=True, axis='both', tight=None)
 ax = plt.gcf().gca()
 
 #plot with pandas
-data.plot(x='Tijd',y='Boomtemperatuur', kind ='line', label='label', c='dimgray', linewidth=1, ax=ax)
-data.plot(x='Tijd',y='Omgevinstemperatuur', kind ='line', label='label', c='dimgray', linewidth=1, ax=ax)
+data.plot(x='ColumnNameX', y='ColumNameY', kind='line', label='label', c='dimgray', linewidth=1, ax=ax)
+data.plot(x='ColumnNameX', y='ColumnNameY', kind='line', label='label', c='dimgray', linewidth=1, ax=ax)
 # kind of plots: 'line', 'hist', 'scatter', 'bar'
 # nice colours: 'dimgrey', 'navy', 'black', 'darkgreen', ...
 # s parameter to change marker of scatterplot
