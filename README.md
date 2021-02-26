@@ -19,6 +19,25 @@ Scaling image to the width of the paper:
         \centerline{\includegraphics[width=\paperwidth]{figure.pdf}}
  \end{figure}
  ```
+ Two figures side-by-side:
+  ```
+\begin{figure}[H]
+    \begin{subfigure}{0.5\columnwidth}
+      \centering
+      \includegraphics[width=\columnwidth]{img/xxx.pdf}
+      \caption{comment}
+      \label{fig:label}
+    \end{subfigure}
+    \begin{subfigure}{0.5\columnwidth}
+      \centering
+      \includegraphics[width=\columnwidth]{img/xxx.pdf}
+      \caption{comment}
+      \label{fig:label}
+    \end{subfigure}
+    \caption{comment}
+    \label{fig:label}
+  \end{figure}
+```
 
 ## PCB design with Kicad
 - Add 3D model to footprint:
