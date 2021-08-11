@@ -1,5 +1,5 @@
 # Tips & Tricks
-Tips and tricks from my engineering studies that I wish I knew earlier. Feel free to share!
+Tips and tricks from my engineering studies that I wish I knew earlier. This is an online draft for myself and everyone who sees this 🙂
 ## Latex 
 ### useful packages
 - package **`siunitx`** for typesetting values with correct units \
