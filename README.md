@@ -39,6 +39,9 @@ Scaling image to the width of the paper:
   \end{figure}
 ```
 
+## Python pandas
+- filter out rows in dataframe with nan in a column: ```df.dropna(subset=['column_containing_NaN']```
+
 ## PCB design with Kicad
 - Add 3D model to footprint:
 1. Select component and press `E`
