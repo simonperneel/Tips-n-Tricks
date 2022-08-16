@@ -60,7 +60,7 @@ template for a latex-style plot from a csv dataset
 
 
 ## Sublime text
-To put cursor at same place in everly line:
+To put cursor at same place in every line:
 1. Select all text: `CTRL+A`
 2. Activate multi-cursors: `CTRL+SHIFT+L`
 3. Left/Right arrow keys to position cursor
